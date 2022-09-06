@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(115, 109, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 10px 10px 30px rgb(54, 53, 53);
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.container input {
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#getDay {
+    padding: 10px 60px;
+    margin-bottom: 20px;
+}
